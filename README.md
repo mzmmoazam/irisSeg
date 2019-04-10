@@ -1,9 +1,9 @@
 # irisSeg
 
-![image](irisSeg/Data/DaughmanOperation.jpg)
 
 Segementation of iris and pupil.
-![image](irisSeg/Data/DaughmanOperation.jpg)
+
+![image](irisSeg/Data/sample_img.jpg)
 
 ## Daugman algorithm:
 
