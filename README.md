@@ -3,8 +3,6 @@
 
 Segementation of iris and pupil.
 
-![image](irisSeg/Data/sample_img.jpg)
-
 ## Daugman algorithm:
 
 ![image](irisSeg/Data/DaughmanOperation.jpg)
@@ -29,6 +27,9 @@ The algorithm starts to search from the pupil, in order to detect the changing o
     plt.imshow(output_image)
     plt.show()
 
+![image](irisSeg/Data/sample_img.jpg)
+
+![image](irisSeg/Data/segemented_img.png)
 
 # References
 
