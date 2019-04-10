@@ -20,6 +20,7 @@ setup(name='irisSeg',
       author='mzm',
       author_email='mzm.moazam@gmail.com',
       license='MIT',
+      long_description_content_type='text/markdown',
       packages=['irisSeg'],
       install_requires=[
           'numpy',
