@@ -1,1 +1,4 @@
 include README.rst
+include Data\DaughmanOperation.jpg
+include Data\sample_img.jpg
+include Data\segemented_img.jpg
