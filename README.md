@@ -27,6 +27,11 @@ The algorithm starts to search from the pupil, in order to detect the changing o
     plt.imshow(output_image)
     plt.show()
 
+# use as a commandline tool
+
+    >>iris-seg file_path min_radius max_radius
+
+
 ![image](irisSeg/Data/sample_img.jpg)
 
 ![image](irisSeg/Data/segemented_img.png)
