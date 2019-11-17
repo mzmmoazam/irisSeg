@@ -12,7 +12,7 @@ The algorithm starts to search from the pupil, in order to detect the changing o
 (partial derivative).`
 
 # Installation
-    pip install irisSeq
+    pip install irisSeg
 
 # Usage
 
