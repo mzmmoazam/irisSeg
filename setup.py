@@ -15,7 +15,7 @@ requirements = parse_requirements(os.path.join(os.path.dirname(__file__), 'requi
 
 
 setup(name='irisSeg',
-      version='0.1',
+      version='0.3',
       description='Daugman implementation to segement iris and pupil',
       long_description=readme(),
       classifiers=[
