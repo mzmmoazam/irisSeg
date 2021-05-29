@@ -1,9 +1,16 @@
 from setuptools import setup
-
-
+try:  # for pip >= 10
+    from pip._internal.req import parse_requirements
+    from pip._internal.download import PipSession
+except ImportError:  # for pip <= 9.0.3
+    from pip.req import parse_requirements
+    from pip.download import PipSession
+    
+    
 def readme():
     with open('README.md') as f:
         return f.read()
+requirements = parse_requirements(os.path.join(os.path.dirname(__file__), 'requirements.txt'), session=PipSession())
 
 
 setup(name='irisSeg',
@@ -22,13 +29,7 @@ setup(name='irisSeg',
       license='MIT',
       long_description_content_type='text/markdown',
       packages=['irisSeg'],
-      install_requires=[
-          'numpy',
-          'opencv-python',
-          'scipy',
-          'scikit-image',
-          'matplotlib'
-      ],
+      install_requires=[str(requirement.requirement) for requirement in requirements],
       test_suite='nose.collector',
       tests_require=['nose', 'nose-cover3'],
       entry_points={
