@@ -5,7 +5,7 @@ irisSeg==0.2
 kiwisolver==1.3.1
 matplotlib==3.4.2
 networkx==2.5.1
-numpy==1.20.3
+numpy==1.22.0
 opencv-python==4.5.2.52
 Pillow==9.0.1
 pyparsing==2.4.7
