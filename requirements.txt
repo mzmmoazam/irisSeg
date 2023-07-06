@@ -12,6 +12,6 @@ pyparsing==2.4.7
 python-dateutil==2.8.1
 PyWavelets==1.1.1
 scikit-image==0.18.1
-scipy==1.6.3
+scipy==1.10.0
 six==1.16.0
 tifffile==2021.4.8
